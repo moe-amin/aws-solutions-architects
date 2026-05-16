@@ -4,7 +4,6 @@ This section contains event-driven and serverless architectures.
 
 Projects included:
 
-- Weather API
 - Lambda + DynamoDB
 - API Gateway Integrations
 - EventBridge Automation
