@@ -11,6 +11,7 @@ Projects included:
 - FSx Architecture
 - Object Lock Labs
 - Backup and Recovery
+- Secure Storage access
 
 Skills demonstrated:
 
