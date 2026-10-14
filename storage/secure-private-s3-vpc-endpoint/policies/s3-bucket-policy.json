@@ -1,0 +1,20 @@
+﻿{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowObjectAccessThroughSpecificVPCEndpoint",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": [
+        "s3:GetObject",
+        "s3:PutObject"
+      ],
+      "Resource": "arn:aws:s3:::my-secure-s3-226/*",
+      "Condition": {
+        "StringEquals": {
+          "aws:SourceVpce": "vpce-06d3e795c9608e69b"
+        }
+      }
+    }
+  ]
+}
